@@ -176,7 +176,6 @@ nav {
     font-style: normal;
     font-weight: 600;
     font-size: 14px;
-    /*line-height: 18px;*/ /* fix later */
     text-transform: uppercase;
     padding: 5px 19px 5px 17px;
     background-color: #F37335;
@@ -189,7 +188,7 @@ nav {
     font-size: 60px;
     line-height: 76px;
     color: #FFFFFF;
-    margin-top: 8px;
+    margin-top: 7px;
     margin-bottom: 9px;
 }
 .banner-text {
@@ -211,7 +210,6 @@ nav {
     font-style: normal;
     font-weight: 700;
     font-size: 14px;
-    /*line-height: 18px;*/
     background-color: #FBB731;
     padding: 20px 25px;
     border-radius: 5px;
