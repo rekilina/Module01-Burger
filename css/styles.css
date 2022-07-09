@@ -61,10 +61,14 @@ header {
 .header-nav a:hover {
     color: #FFC725;
 }
+/*
 .header-nav a:hover::after {
     background-color: #FFC725;
 }
-
+*/
+.header-nav li:nth-child(2) a::after {
+    background-color: #FFC725;
+}
 .button {
     display: flex;
     align-items: center;
