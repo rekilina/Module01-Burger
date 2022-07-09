@@ -223,6 +223,17 @@ nav {
     margin: 62px 0 -2px;
 }
 
+.menu-additional-title {
+    color: #1B2A49;
+    font-family: 'Nunito Sans';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 44px;
+    line-height: 56px;
+    text-transform: uppercase;
+    margin: 70px 0 35px;
+}
+
 .menu-title {
     color: #1B2A49;
     font-family: 'Nunito Sans';
