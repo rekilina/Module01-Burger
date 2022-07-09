@@ -268,6 +268,7 @@ nav {
     display: flex;
     align-items: center;
     flex-direction: column;
+    margin-bottom: 30px;
 }
 
 .menu-grid {
@@ -321,7 +322,7 @@ nav {
     display: flex;
     align-items: center;
     border-radius: 5px;
-    margin: 20px 0 30px;
+    margin: 20px 0 0;
 }
 
 .menu-grid-icon img {
@@ -338,4 +339,82 @@ nav {
     font-weight: 700;
     font-size: 14px;
     line-height: 18px;
+}
+
+
+/* ------------- footer ------------ */
+.footer {
+    background: #1E2F40;
+    padding-top: 112px;
+    padding-bottom: 106px;
+    margin-top: 110px;
+}
+.footer-container {
+    display: flex;
+    justify-content: space-between;
+}
+.footer-logo {
+    width: 63px;
+    height: 56px;
+    margin-top: 5px;
+}
+.footer-list {
+    padding: 0 0;
+    list-style: none;
+    margin: 0 0;
+}
+footer h2 {
+    font-family: 'Nunito Sans';
+    font-style: normal;
+    font-weight: 800;
+    font-size: 20px;
+    line-height: 38px;
+    text-transform: uppercase;
+    margin: 0 0;
+    color: #FFFFFF;
+}
+.footer-links ul {
+    margin-top: 8px;
+}
+.footer-links ul li {
+    font-family: 'Open Sans';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 15px;
+    line-height: 32px;
+    color: #DEDEDE;
+} 
+.footer-links ul li a {
+    text-decoration: none; 
+}
+.footer-inform ul {
+    margin-top: 10px;
+}
+.footer-inform ul li {
+    color: #FAF9F9;
+    font-family: 'Open Sans';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 15px;
+    line-height: 24px;
+}
+.footer-inform ul li:first-child {
+    margin: 0 0 11px;
+}
+.footer-inform ul li span {
+    font-family: 'Open Sans';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 15px;
+    line-height: 26px;
+    color: #DEDEDE;
+    display: block;
+}
+.tel ul {
+    font-family: 'Nunito Sans';
+    font-style: normal;
+    font-weight: 800;
+    font-size: 20px;
+    line-height: 38px;
+    color: #FBB731;
 }
