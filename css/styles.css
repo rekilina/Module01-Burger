@@ -152,7 +152,7 @@ header {
 
 nav {
     position: relative;
-    left: -50px; /* find values from PerfectPixel */
+    left: 0px; /* -50px from PerfectPixel */
 }
 
 .banner-box {
