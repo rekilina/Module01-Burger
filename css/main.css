@@ -169,13 +169,14 @@ nav {
 .banner-box {
     background-image: url(../images/banner.jpg);
     width: 1080px;
-    height: 438px;
+    height: calc(438px - 100px);
     background-size: cover;
     padding-left: 100px;
+    padding-top: 100px;
 }
 
 .banner-title {
-    padding: 100px 0 0;
+    padding: 0 0;
     color: white;
     display: block;
     max-width: 160px;
@@ -600,21 +601,27 @@ h1.content-title span {
         gap: 22px;
     }
     .header-item {
-        flex-basis: 75.5%;
+        flex-basis: 82%;
     }
     .bg {
         margin-bottom: 72px;
     }
-    
+    .menu-header {
+        margin: 43px 0 -2px;
+    }
     .banner-box {
         background-position: -80px center;
-        padding: 0 40px;
+        padding: 100px 40px 120px;
         background-size: cover;
         box-sizing: border-box;
         width: 100%;
+        height: 100%;
     }
     .menu-grid {
         grid-template-columns: repeat(2, 1fr);
-        gap: 50px 15px;
+        gap: 21px 15px;
+    }
+    .menu-additional-title {
+        margin: 59px 0 35px;
     }
 }
