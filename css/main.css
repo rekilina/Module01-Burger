@@ -624,4 +624,21 @@ h1.content-title span {
     .menu-additional-title {
         margin: 59px 0 35px;
     }
+    .footer {
+        padding-top: 57px;
+    }
+    .footer-container {
+        display: grid;
+        grid-template-columns: 4fr 9fr 9fr;
+    }
+    .footer-tel {
+        grid-column-start: 2;
+        grid-column-end: 3;
+        grid-row-start: 2;
+        grid-row-end: 3;
+        margin-top: 0px;
+    }
+    .footer-inform {
+        letter-spacing: 0.001px;
+    }
 }
