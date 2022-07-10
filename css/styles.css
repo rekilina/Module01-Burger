@@ -392,27 +392,20 @@ footer h2 {
     margin: 0 0;
     color: #FFFFFF;
 }
-.footer-links ul {
-    margin-top: 8px;
+.footer-links ul,
+.footer-inform ul {
+    margin-top: 7px;
 }
-.footer-links li {
+.footer-links li,
+.footer-inform span {
     font-family: 'Open Sans';
     font-style: normal;
     font-weight: 400;
     font-size: 15px;
     line-height: 32px;
     color: #DEDEDE;
+    display: block;
 } 
-.footer-links a {
-    text-decoration: none; 
-    color: #DEDEDE;
-}
-.footer-links a:hover {
-    color: #FBB731;
-}
-.footer-inform ul {
-    margin-top: 10px;
-}
 .footer-inform li {
     color: #FAF9F9;
     font-family: 'Open Sans';
@@ -421,17 +414,12 @@ footer h2 {
     font-size: 15px;
     line-height: 24px;
 }
-.footer-inform li:first-child {
-    margin: 0 0 11px;
-}
-.footer-inform span {
-    font-family: 'Open Sans';
-    font-style: normal;
-    font-weight: 400;
-    font-size: 15px;
-    line-height: 26px;
+.footer-links a {
+    text-decoration: none; 
     color: #DEDEDE;
-    display: block;
+}
+.footer-links a:hover {
+    color: #FBB731;
 }
 .footer-tel a {
     font-family: 'Nunito Sans';
