@@ -7,6 +7,7 @@ body {
     max-width: 1180px;
     margin: 0 auto;
     padding: 0 15px;
+    overflow: hidden;
 }
 /* ------------------ header ------------------- */
 .header {
@@ -640,5 +641,23 @@ h1.content-title span {
     }
     .footer-inform {
         letter-spacing: 0.001px;
+    }
+    .menu-additional .menu-grid-cover {
+        height: 320px;
+    }
+    .menu-additional img {
+        height: 100%;
+    }
+    .menu-additional .menu-grid {
+        grid-template-columns: 1fr 1fr 1fr;
+        width: 115%;
+        gap: 15px;
+    }
+    .menu-additional-title {
+        position: sticky;
+        left: 0;
+    }
+    .menu-additional .container {
+        overflow: auto;
     }
 }
