@@ -17,6 +17,9 @@
     <header id="headerTop">
         <div class="container">
             <div class="header">
+                <div class="header-burger">
+                    <button class="burger" onclick="openModal()"></button>
+                </div>
                 <div class="header-item">
                     <a href="index.html" class="header-logo"></a>
                     <nav>
@@ -205,28 +208,6 @@
                             <span class="menu-grid-text">купить</span>
                         </button>
                     </div>
-                    <div class="menu-grid-item">
-                        <div class="menu-grid-cover">
-                            <img src="./images/menu/add/Product03.jpg" alt="Хот-Дог">
-                        </div>
-                        <p class="menu-grid-title">Хот-Дог</p>
-                        <p class="menu-grid-price">$7</p>
-                        <button class="menu-grid-btn" type="button">
-                            <span class="menu-grid-icon"><img src="./images/cart-menu.svg" alt="cart-menu"></span>
-                            <span class="menu-grid-text">купить</span>
-                        </button>
-                    </div>
-                    <div class="menu-grid-item">
-                        <div class="menu-grid-cover">
-                            <img src="./images/menu/add/Product03.jpg" alt="Хот-Дог">
-                        </div>
-                        <p class="menu-grid-title">Хот-Дог</p>
-                        <p class="menu-grid-price">$7</p>
-                        <button class="menu-grid-btn" type="button">
-                            <span class="menu-grid-icon"><img src="./images/cart-menu.svg" alt="cart-menu"></span>
-                            <span class="menu-grid-text">купить</span>
-                        </button>
-                    </div>
                 </div>
             </div>
         </section>
@@ -281,6 +262,24 @@
         
     </footer>
     <a href="#headerTop" class="button-up hidden" id="btnUp">Наверх</a>
+    <div class="modal" id="modal">
+        <ul class="header-nav">
+            <li>
+                <a href="index.html" class="">Главная</a>
+            </li>
+            <li>
+                <a href="#" class="">Меню</a>
+            </li>
+            <li>
+                <a href="#" class="">О нас</a>
+            </li>
+            <li>
+                <a href="#" class="">Контакты</a>
+            </li>
+        </ul>
+        <button class="burger-close" onclick="closeModal()"></button>
+    </nav>
+    </div>
     <script src="./scripts/main.js"></script>
 </body>
 </html>
