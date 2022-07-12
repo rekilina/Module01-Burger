@@ -643,7 +643,11 @@ h1.content-title span {
         grid-column-end: 3;
         grid-row-start: 2;
         grid-row-end: 3;
-        margin-top: 0px;
+        margin-top: 2px;
+    }
+    .footer-links li, 
+    .footer-inform span {
+        line-height: 34px;
     }
     .menu-additional .menu-grid-cover {
         height: 320px;
@@ -663,4 +667,18 @@ h1.content-title span {
     .menu-additional .container {
         overflow: auto;
     }
+   /* .footer-tel {
+        display: none;
+    }
+    .footer-list + .footer-tel {
+        display:block;
+        margin-top: 15px;
+    }*/
 }
+
+/*@media (min-width: 1001px) {
+    .footer-list + .footer-tel {
+        display: none;
+        
+    }
+}*/
