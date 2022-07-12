@@ -626,13 +626,13 @@ h1.content-title span {
       }
     .menu-grid {
         grid-template-columns: repeat(2, 1fr);
-        gap: 21px 15px;
     }
     .menu-additional-title {
         margin: 59px 0 35px;
     }
     .footer {
         padding-top: 60px;
+        margin-top: 117px;
     }
     .footer-container {
         display: grid;
@@ -648,6 +648,11 @@ h1.content-title span {
     .footer-links li, 
     .footer-inform span {
         line-height: 34px;
+    }
+    /* hide scroll */
+    .menu-additional {
+        overflow: hidden;
+        height: 641px;
     }
     .menu-additional .menu-grid-cover {
         height: 320px;
@@ -665,7 +670,8 @@ h1.content-title span {
         left: 0;
     }
     .menu-additional .container {
-        overflow: auto;
+        overflow-x: scroll;
+        overflow-y: hidden;
     }
    /* .footer-tel {
         display: none;
