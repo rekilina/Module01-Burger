@@ -661,9 +661,16 @@ h1.content-title span {
         height: 100%;
     }
     .menu-additional .menu-grid {
-        grid-template-columns: 1fr 1fr 1fr;
-        width: 115%;
-        gap: 15px;
+        display: flex;
+        flex-direction: row;
+        justify-content: flex-start;
+        gap: 12px;
+        width: auto;
+    }
+    .menu-additional .menu-grid-item {
+        flex-basis: 275px;
+        flex-shrink: 0;
+        flex-grow: 0;
     }
     .menu-additional-title {
         position: sticky;
@@ -672,6 +679,7 @@ h1.content-title span {
     .menu-additional .container {
         overflow-x: scroll;
         overflow-y: hidden;
+        padding: 0;
     }
    /* .footer-tel {
         display: none;
