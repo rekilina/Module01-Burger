@@ -819,6 +819,7 @@ h1.content-title span {
     .footer-container {
         display: flex;
         flex-direction: column;
+        position: relative;
     }
     .footer-links {
         margin-top: 40px;
@@ -827,9 +828,9 @@ h1.content-title span {
         margin-top: 26px;
     }
     .footer-tel {
-        position: relative;
-        bottom: 500px;
-        left: 115px;
+        position: absolute;
+        top: 0;
+        right: 20px; 
     }
     .modal {
         max-width: 300px;
@@ -990,9 +991,9 @@ h1.content-title span {
         margin-top: 26px;
     }
     .footer-tel {
-        position: relative;
-        bottom: 500px;
-        left: 115px;
+        position: absolute;
+        top: 0;
+        right: 20px;
     }
     .modal {
         max-width: 300px;
@@ -1077,8 +1078,9 @@ h1.content-title span {
         margin-bottom: 0px;
     }
     .footer-tel {
-        position: static;
-        margin-top: 30px;
+        position: absolute;
+        top: 0;
+        right: 20px;
     }
     .footer-tel a {
         font-size: 14px;
