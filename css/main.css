@@ -1078,10 +1078,15 @@ h1.content-title span {
     }
     .footer-tel {
         position: static;
+        margin-top: 30px;
+    }
+    .footer-tel a {
+        font-size: 14px;
+        line-height: 30px;
     }
     .footer::after {
         content: '';
-        height: 100px;
+        height: 50px;
         display: block;
     }
 }
