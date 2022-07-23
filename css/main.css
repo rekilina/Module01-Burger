@@ -595,6 +595,11 @@ h1.content-title span {
     font-weight: 700;
     margin: 0 0 10px;
 }
+.content-link:hover {
+    background-color: #F37335;
+    color: #DEDEDE;
+    transition: 0.5s;
+}
 
 /*----------------modal window-----------------*/
 .burger {
