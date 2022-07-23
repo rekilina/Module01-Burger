@@ -596,9 +596,10 @@ h1.content-title span {
     margin: 0 0 10px;
 }
 .content-link:hover {
-    background-color: #F37335;
-    color: #DEDEDE;
+    background-color: transparent;
+    color: #FBB731;
     transition: 0.5s;
+    border: 1px solid #FBB731;
 }
 
 /*----------------modal window-----------------*/
