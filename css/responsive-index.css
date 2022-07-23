@@ -18,6 +18,9 @@
     .promo {
         padding: 130px 0 25px;
     }
+    .wrapper {
+        overflow: hidden;
+    }
 }
 
 @media (max-width: 760px) {

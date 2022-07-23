@@ -472,13 +472,13 @@ footer h2 {
 
 .main {
     background: linear-gradient(180deg, #0C4C7B -100%, #1E2F40 100%);
+    overflow: hidden;
 }
 .wrapper {
     max-width: 1180px;
     margin: 0 auto;
     display: flex;
     justify-content: space-between;
-    overflow: hidden;
     padding: 0 20px;
 }
 .content {
