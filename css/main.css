@@ -1,7 +1,6 @@
 
 body {
     font-family: 'Nunito Sans', sans-serif;
-    /*max-width: 1920px;*/
 }
 .container {
     max-width: 1180px;
@@ -35,13 +34,16 @@ header {
     justify-content: space-between; 
     flex-basis: 72.7%;
 }
+nav {
+    position: relative;
+    left: -50px; 
+}
 .header-nav {
     display: flex;
     list-style-type: none;
     padding-left: 0;
     gap: 46px;
 }
-
 .header-nav a {
     font-style: normal;
     font-weight: 600;
@@ -51,7 +53,6 @@ header {
     text-decoration: none;
     transition: 0.5s;
 }
-
 .header-nav a::after {
     content: '';
     width: 100%;
@@ -63,14 +64,10 @@ header {
 .header-nav a:hover {
     color: #FFC725;
 }
-/*
-.header-nav a:hover::after {
-    background-color: #FFC725;
-}
-*/
 .header-nav li:nth-child(2) a::after {
     background-color: #FFC725;
 }
+/*---------------grocery basket------------------*/
 .button {
     display: flex;
     align-items: center;
@@ -80,24 +77,20 @@ header {
     gap: 10px;
     cursor: pointer;
 }
-
 .button-text {
     color: #443737;
     font-weight: 700;
     font-size: 15px;
 }
-
 .button-item {
     position: relative;
 }
-
 .button-count {
     font-weight: 700;
     font-size: 13px;
     color: white;
     background-color: #F37335;
     border-radius: 100%;
-    /*padding: 1px 4px 0px 5px;*/
     width: 17px;
     height: 17px;
     text-align: center;
@@ -106,7 +99,7 @@ header {
     top: 8.75px;
     left: 17px;
 }
-
+/* ----------------- top banner ------------------*/
 .bg {
     text-align: center;
     color: white;
@@ -117,7 +110,6 @@ header {
     margin-bottom: 140px;
     background-repeat: no-repeat;
 }
-
 .breadcrumbs {
     padding-left: 0;
     margin: 0;
@@ -126,36 +118,30 @@ header {
     justify-content: center;
     gap: 7px;
 }
-
 .breadcrumbs a {
     color: #DEDEDE;
     font-family: 'Open Sans', sans-serif;
     font-size: 15px;
     text-decoration: none;
 }
-
 .breadcrumbs li:nth-child(2) a::before {
     content: '/';
     position: relative;
     left: -3px;
     pointer-events: none;
 }
-
 .breadcrumbs a:hover {
     color: #FFC725;
 }
-
 .breadcrumbs a:hover::before {
     color: #DEDEDE;
 }
-
 .title-menu {
     font-weight: 700;
     font-size: 79px;
     margin-top: 17px;
     margin-bottom: 21px;
 }
-
 .description {
     font-family: 'Open Sans', sans-serif;
     font-size: 15px;
@@ -164,11 +150,7 @@ header {
     max-width: 320px;
     margin: 0 auto;
 }
-
-nav {
-    position: relative;
-    left: -50px; 
-}
+/*------------------sale banner-------------------*/
 .banner-box {
     background-image: url(../images/banner.jpg);
     width: 100%;
@@ -176,7 +158,6 @@ nav {
     padding: 100px 0 124px 100px;
     box-sizing: border-box;
 }
-
 .banner-title {
     color: white;
     display: block;
@@ -200,8 +181,7 @@ nav {
     font-size: 60px;
     line-height: 76px;
     color: #FFFFFF;
-    margin-top: 7px;
-    margin-bottom: 9px;
+    margin: 7px 0 9px;
 }
 .banner-text {
     font-family: 'Open Sans';
@@ -213,7 +193,6 @@ nav {
     max-width: 320px;
     margin: 0 0 35px;
 }
-
 .banner-link {
     text-decoration: none;
     text-transform: uppercase;
@@ -238,17 +217,7 @@ nav {
     justify-content: space-between;
     margin: 62px 0 -2px;
 }
-
-.menu-additional-title {
-    color: #1B2A49;
-    font-family: 'Nunito Sans';
-    font-style: normal;
-    font-weight: 700;
-    font-size: 44px;
-    line-height: 56px;
-    text-transform: uppercase;
-    margin: 70px 0 35px;
-}
+/*--------------------main menu--------------------*/
 .menu-title {
     color: #1B2A49;
     font-family: 'Nunito Sans';
@@ -260,7 +229,6 @@ nav {
     margin: 0 0 36.52px;
     padding-top: 36.52px;
 }
-
 .menu-select {
     border: 1px solid #DEDEDE;
     padding: 13px 26px;
@@ -320,7 +288,7 @@ nav {
     font-style: normal;
     font-weight: 600;
     font-size: 30px;
-    line-height: 38px; /* fix later */
+    line-height: 38px;
     padding: 0;
     margin: 20px 0 0 0;
 }
@@ -365,12 +333,46 @@ nav {
     line-height: 18px;
 }
 
+/*--------------------additional---------------------*/
+.menu-additional-title {
+    color: #1B2A49;
+    font-family: 'Nunito Sans';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 44px;
+    line-height: 56px;
+    text-transform: uppercase;
+    margin: 70px 0 35px;
+}
+
+/*
+.menu-additional .container {
+    overflow-x: scroll;
+    overflow-y: hidden;
+    padding: 0;
+}
+.menu-additional .menu-grid {
+    display: flex;
+    flex-direction: row;
+    justify-content: flex-start;
+    gap: 20px;
+}
+.menu-additional .menu-grid-item {
+    flex-basis: 380px;
+    flex-shrink: 0;
+    flex-grow: 0;
+}
+.menu-additional-title {
+    position: -webkit-sticky;
+    position: sticky;
+    left: 0;
+}
+*/
 
 /* ------------- footer ------------ */
 .footer {
     background: #1E2F40;
-    padding-top: 112px;
-    padding-bottom: 106px;
+    padding: 112px 0 50px;
     margin-top: 110px;
 }
 .footer-container {
@@ -441,7 +443,7 @@ footer h2 {
 .footer-tel a:hover {
     color: #FFFFFF;
 }
-
+/* --------------- button Up -------------*/
 .button-up {
     background-color: #FBB731;
     color: #1E2F40;
@@ -465,6 +467,7 @@ footer h2 {
 .button-up:hover {
     background-color: #F37335;
 }
+
 /*---------------style index---------------*/
 
 .main {
@@ -475,6 +478,8 @@ footer h2 {
     margin: 0 auto;
     display: flex;
     justify-content: space-between;
+    overflow: hidden;
+    padding: 0 20px;
 }
 .content {
     color: #FAF9F9;
@@ -564,14 +569,12 @@ h1.content-title span {
     border-radius: 14px;
     display: inline-block;
     text-transform: uppercase;
-    margin-bottom: 3px;
-    margin-top: 0;
+    margin: 0 0 3px;
 }
 .cost {
     font-size: 60px;
     font-weight: 900;
-    margin-bottom: 8px;
-    margin-top: 0;
+    margin: 0 0 8px;
 }
 .promo-description {
     font-family: 'Open Sans', sans-serif;
@@ -590,10 +593,8 @@ h1.content-title span {
 .free {
     font-size: 44px;
     font-weight: 700;
-    margin-bottom: 10px;
-    margin-top: 0;
+    margin: 0 0 10px;
 }
-
 
 /*----------------modal window-----------------*/
 .burger {
@@ -735,22 +736,7 @@ h1.content-title span {
         overflow-y: hidden;
         padding: 0;
     }
-   /* .footer-tel {
-        display: none;
-    }
-    .footer-list + .footer-tel {
-        display:block;
-        margin-top: 15px;
-    }*/
 }
-
-/*@media (min-width: 1001px) {
-    .footer-list + .footer-tel {
-        display: none;
-        
-    }
-}*/
-
 
 @media (min-width: 766px) {
     .header-burger {
@@ -795,7 +781,7 @@ h1.content-title span {
     }
     .menu-additional {
         overflow: hidden;
-        height: 450px;
+        height: 550px;
         padding-left: 15px;
     }
     .menu-additional .menu-grid-cover {
@@ -809,15 +795,15 @@ h1.content-title span {
         width: auto;
     }
     .menu-additional .menu-grid-item {
-        flex-basis: 140px;
+        flex-basis: 200px;
         flex-shrink: 0;
         flex-grow: 0;
-        height: 280px;
+        height: 380px;
     }
     .footer {
         margin-top: 55px;
         padding-top: 56px;
-        padding-bottom: 0;
+        padding-bottom: 50px;
     }
     .footer-container {
         display: flex;
@@ -839,19 +825,23 @@ h1.content-title span {
         max-width: 300px;
     }
 }
-/*@media (max-width: 413px) {
-    .banner-box {
-        padding: 35px 24px 54px;
-        background-position: 25% center;
+
+@media (max-width: 500px) {
+    .menu-additional {
+        overflow: hidden;
+        height: 550px;
+        padding-left: 15px;
     }
-}*/
-/*@media (max-width: 360px) {
-    .header-logo {
-        width: 116px;
-        height: 37px;
-        background-size: contain;
+    .menu-additional .menu-grid-cover {
+        height: 240px;
     }
-}*/
+    .menu-additional .menu-grid-item {
+        flex-basis: 180px;
+        flex-shrink: 0;
+        flex-grow: 0;
+    }
+}
+
 @media (max-width: 460px) {
     .banner-box {
         padding: 35px 24px 54px;
@@ -978,10 +968,13 @@ h1.content-title span {
         gap: 5px;
         width: auto;
     }
+    .menu-additional .menu-grid-item {
+        flex-basis: 140px;
+    }
     .footer {
         margin-top: 55px;
         padding-top: 56px;
-        padding-bottom: 0;
+        padding-bottom: 50px;
     }
     .footer-container {
         display: flex;
@@ -1089,75 +1082,4 @@ h1.content-title span {
         font-size: 14px;
         line-height: 30px;
     }
-    .footer::after {
-        content: '';
-        height: 50px;
-        display: block;
-    }
 }
-
-/*---------responsive index-------------*/
-/*
-@media (max-width: 1100px) {
-    .wrapper .content {
-        padding-top: 0;
-        padding-bottom: 70px
-    }
-    .promo {
-        padding-top: 90px;
-        padding-bottom: 0px;
-    }
-    .wrapper {
-        max-width: 800px;
-    } 
-    h1.content-title {
-        font-size: 65px;
-        line-height: 78px;
-        margin-bottom: 0px;
-        margin-top: 30px;
-    }
-    h1.content-title span {
-        font-size: 20px;
-    }
-    .content-text {
-        font-size: 17px;
-        margin-top: 0;
-        margin-bottom: 30px;
-    }
-    .visual-bg {
-        width: 250px;
-    }
-    .main img {
-        width: 500px;   
-        position: absolute;
-        right: -146px;
-        top: -30px;
-    }
-    .content {
-        max-width: 350px;
-        padding-right: 30px;
-        padding-bottom: 0px;
-    }
-    .main {
-        overflow-x: hidden;
-    }
-    .promo {
-        padding-top: 100px;
-    }
-    .promo-left,
-    .promo-right {
-        padding: 25px 30px;
-    }
-    .cost {
-        font-size: 43px;
-        font-weight: 900;
-        margin-bottom: 0px;
-    }
-    .promo-description {
-        margin-top: 5px
-    }
-    .free {
-        font-size: 35px;
-    }
-}
-*/
