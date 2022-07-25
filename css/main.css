@@ -740,7 +740,6 @@ h1.content-title span {
     .menu-additional .container {
         overflow-x: scroll;
         overflow-y: hidden;
-        padding: 0;
     }
 }
 
@@ -788,7 +787,6 @@ h1.content-title span {
     .menu-additional {
         overflow: hidden;
         height: 550px;
-        padding-left: 15px;
     }
     .menu-additional .menu-grid-cover {
         height: 180px;
@@ -836,7 +834,6 @@ h1.content-title span {
     .menu-additional {
         overflow: hidden;
         height: 550px;
-        padding-left: 15px;
     }
     .menu-additional .menu-grid-cover {
         height: 240px;
@@ -962,7 +959,6 @@ h1.content-title span {
     .menu-additional {
         overflow: hidden;
         height: 400px;
-        padding-left: 15px;
     }
     .menu-additional .menu-grid-cover {
         height: 180px;

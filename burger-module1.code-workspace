@@ -1,0 +1,13 @@
+{
+	"folders": [
+		{
+			"path": "..\\web-projects\\burger-1"
+		},
+		{
+			"path": "."
+		}
+	],
+	"settings": {
+		"liveServer.settings.multiRootWorkspaceName": "Module01-Burger"
+	}
+}
