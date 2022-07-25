@@ -168,18 +168,26 @@
     }
 }
 
-@media(max-width: 300px) {
+@media(max-width: 330px) {
     .promo-left, .promo-right {
         padding: 40px 15px;
     }
     .promo {
         padding-top: 50px;
     }
+    .main .wrapper {
+        flex-direction: column;
+    }
     .main img {
-        width: 250px;
-        position: absolute;
-        right: 280px;
-        top: 160px;
+        width: 100%;
+        position: static;
+        margin-top: -50px;
+    }
+    .visual-bg {
+        background: transparent;
+        width: 100%;
+        display: flex;
+        justify-content: center;
     }
     .content {
         flex-basis: 230px;
