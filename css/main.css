@@ -712,7 +712,8 @@ h1.content-title span {
     /* hide scroll */
     .menu-additional {
         overflow: hidden;
-        height: 641px;
+        /* height: 667px; to hide scroll */
+        height: 667px; 
     }
     .menu-additional .menu-grid-cover {
         height: 320px;
